@@ -418,12 +418,9 @@ public class DownloadInfo {
             case ConnectivityManager.TYPE_WIFI:
                 return DownloadManager.Request.NETWORK_WIFI;
 
-<<<<<<< HEAD
             case ConnectivityManager.TYPE_WIMAX:
                 return DownloadManager.Request.NETWORK_WIMAX;
 
-=======
->>>>>>> remotes/aosp/ics-mr1-release
             default:
                 return 0;
         }
